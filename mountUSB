@@ -1,0 +1,9 @@
+#!/bin/bash
+
+usbdrive=$(sudo blkid -o list | grep "^/dev/sdb" | awk '{print $1}')
+$(sudo mkdir /media/usb)
+$(sudo mount /media/usb)
+
+# mkdir /media/usb
+# mount $usbdrive /media/usb
+# cp /media/usb/"$1" ~/
