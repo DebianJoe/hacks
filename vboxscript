@@ -1,0 +1,13 @@
+#!/bin/bash
+
+$(vboxmanage startvm WinXP_Molex_Rev_1)
+sleep 4
+while true
+vboxup=$(pstree | grep -i virtualbox)
+do
+    if [ -z $vboxup ]; then #Poll pstree for VBOX processID
+	$(/sbin/poweroff)
+    fi
+sleep 4s
+done
+/sbin/poweroff
