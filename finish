@@ -1,0 +1,4 @@
+#!/bin/bash
+
+$(cp ~/hacks/.Xdefaults ~/.Xdefaults)
+$(cp ~/hacks/finalxinitrc ~/.xinitrc)
