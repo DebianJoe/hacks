@@ -1,5 +1,5 @@
-!*background:    #FFFFFF
-!*foreground:    #FFFFFF
+Xterm*background:    #FFFFFF
+Xterm*foreground:    #FFFFFF
 !black
 *color0 :            #FFFFFF
 *color8 :            #FFFFFF
