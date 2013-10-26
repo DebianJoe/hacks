@@ -1,28 +1,30 @@
-!*background:    #202020
+!*background:    #FFFFFF
 !*foreground:    #FFFFFF
 !black
-*color0 :            #222222
-*color8 :            #454545
+*color0 :            #FFFFFF
+*color8 :            #FFFFFF
 !red
-*color1 :            #73301D
-*color9 :            #73301D
+*color1 :            #FFFFFF
+*color9 :            #FFFFFF
 !green
-*color2 :            #3F4011
-*color10:            #0E4C10
+*color2 :            #FFFFFF
+*color10:            #FFFFFF
 !yellow
-*color3 :            #B48348
-*color11:            #FFCAA2
+*color3 :            #FFFFFF
+*color11:            #FFFFFF
 !blue
-*color4 :            #0F2141
-*color12:            #5A667F
+*color4 :            #FFFFFF
+*color12:            #FFFFFF
 !magenta
-*color5 :            #390000
-*color13:            #D8ADCE
+*color5 :            #FFFFFF
+*color13:            #FFFFFF
 !cyan
-*color6 :            #25411C
-*color14:            #879FB4
+*color6 :            #FFFFFF
+*color14:            #FFFFFF
 !white
-*color7 :            #C0C0C0
-*color15:            #FFFFFFXft.dpi: 96:unscaled
+*color7 :            #FFFFFF
+*color15:            #FFFFFF
+
+Xft.dpi: 96:unscaled
 
 Xcursor*theme: DMZ-White
