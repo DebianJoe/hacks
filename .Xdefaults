@@ -1,0 +1,28 @@
+!*background:    #202020
+!*foreground:    #FFFFFF
+!black
+*color0 :            #222222
+*color8 :            #454545
+!red
+*color1 :            #73301D
+*color9 :            #73301D
+!green
+*color2 :            #3F4011
+*color10:            #0E4C10
+!yellow
+*color3 :            #B48348
+*color11:            #FFCAA2
+!blue
+*color4 :            #0F2141
+*color12:            #5A667F
+!magenta
+*color5 :            #390000
+*color13:            #D8ADCE
+!cyan
+*color6 :            #25411C
+*color14:            #879FB4
+!white
+*color7 :            #C0C0C0
+*color15:            #FFFFFFXft.dpi: 96:unscaled
+
+Xcursor*theme: DMZ-White
