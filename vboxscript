@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$(vboxmanage startvm NAMETOREPLACE)
+$(vboxmanage startvm Checker)
 sleep 4
 while true
 vboxup=$(pstree | grep -i virtualbox)

@@ -2,3 +2,6 @@
 
 $(cp ~/hacks/.Xdefaults ~/.Xdefaults)
 $(cp ~/hacks/finalxinitrc ~/.xinitrc)
+$(sudo mkdir /etc/systemd/system/getty@tty1.service.d)
+$(sudo cp ~/hacks/autologin.conf /etc/systemd/system/getty@tty1.service.d)
+$(cp ~/hacks/.bashrc ~/.bashrc)
