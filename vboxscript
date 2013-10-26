@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$(vboxmanage startvm WinXP_Molex_Rev_1)
+$(vboxmanage startvm NAMETOREPLACE)
 sleep 4
 while true
 vboxup=$(pstree | grep -i virtualbox)
