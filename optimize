@@ -1,0 +1,13 @@
+On the stock kernel, you can set journald.conf in /etc/systemd/journald.conf to #Storage=none
+While this doesn't stop the service, it DOES prevent read/write.
+
+Add these options to /etc/fstab
+# / ext4 defaults,noatime,nodiratime,commit=120
+
+;noatime - Don't update inode access times on the filesystem.
+;nodiratime - Don't update directory inode access times on the filesystem.
+;commit=120 - Ext4 writes metadata changes every 5 seconds.  The commit will set a level in seconds for each write...this will be 2 minutes. ;)
+
+in /etc/cron.daily/man-db, immediatly under the call to #!/bin/sh...add "exit 0", as we don't want to update man page DB on a static system.
+
+You can disable a lot of syslogging by cd to /etc/syslog-ng and running "sudo sed -i.bak 's/\/var/-\/var' syslog-ng.conf...which will turn each call to "/var/foo/bar" with "-/var/foo/bar" and thus, not write to files.
